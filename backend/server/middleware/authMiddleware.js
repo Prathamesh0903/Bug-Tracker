@@ -3,7 +3,6 @@ const admin = require('firebase-admin');
 const path = require('path');
 
 // Path to your service account key (adjust as needed)
-const admin = require('firebase-admin');
 
 const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
 
