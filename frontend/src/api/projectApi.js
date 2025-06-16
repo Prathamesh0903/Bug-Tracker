@@ -1,4 +1,4 @@
-API_URL=process.env.API_URL;
+const API_URL = import.meta.env.VITE_API_URL;
 // Helper function to get auth headers
 const getAuthHeaders = (token) => ({
   'Content-Type': 'application/json',
