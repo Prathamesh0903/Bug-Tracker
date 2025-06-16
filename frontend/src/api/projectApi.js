@@ -1,5 +1,4 @@
-const API_URL = 'https://bug-tracker-pjqo.onrender.com/';
-
+API_URL=process.env.API_URL;
 // Helper function to get auth headers
 const getAuthHeaders = (token) => ({
   'Content-Type': 'application/json',
