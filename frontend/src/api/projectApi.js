@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api/projects';
+const API_URL = 'https://bug-tracker-pjqo.onrender.com/';
 
 // Helper function to get auth headers
 const getAuthHeaders = (token) => ({
