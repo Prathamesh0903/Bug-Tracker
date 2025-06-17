@@ -7,7 +7,13 @@ const helmet = require('helmet')
 const app = express() 
  
 // Middleware  
-app.use(cors()); // Allow all origins (disable for production)
+app.use(cors({
+origin: [
+  'https://bug-tracker-prathamesh-pawars-projects-de2689ea.vercel.app',
+  'http://localhost:3000' // For local development
+],  
+credentials: true
+}));
 app.use(helmet())  
 app.use(express.json())   
   

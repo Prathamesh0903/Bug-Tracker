@@ -1,8 +1,7 @@
 // client/src/api/tickets.js
 import axios from 'axios';
 
-const API_URL = `${import.meta.env.VITE_API_URL}/api/projects`;
-// Get tickets by project
+const API_URL = `${import.meta.env.VITE_API_URL}/api/tickets`;// Get tickets by project
 export const getTicketsByProject = async (projectId, token) => {
   const config = {
     headers: {
