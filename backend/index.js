@@ -10,6 +10,7 @@ const app = express()
 app.use(cors({
 origin: [
   'https://bug-tracker-prathamesh-pawars-projects-de2689ea.vercel.app',
+  'https://bug-tracker-mu-lilac.vercel.app',
   'http://localhost:3000' // For local development
 ],  
 credentials: true
