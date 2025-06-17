@@ -55,7 +55,7 @@ const CreateProject = () => {
     try {
       await createProject(formData);
       setSuccess('Project created successfully!');
-      setTimeout(() => navigate('/'), 1500);
+      setTimeout(() => navigate('/ProjectList'), 1500);
     } catch (err) {
       setError(err.message || 'Failed to create project');
     } finally {
