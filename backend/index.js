@@ -7,7 +7,7 @@ const helmet = require('helmet')
 const app = express() 
  
 // Middleware  
-app.use(cors())
+app.use(cors()); // Allow all origins (disable for production)
 app.use(helmet())  
 app.use(express.json())   
   
