@@ -1,1 +1,2 @@
-# Bug-Tracker
+Bug-Tracker : https://bug-tracker-mu-lilac.vercel.app
+Bug Tracker is a modern, Jira-like project management tool built with React and Bootstrap for the frontend, powered by Node.js for the backend. It features Firebase Authentication for secure access, allowing users to create, edit, and update projects, manage team members, and track progress seamlessly. The app includes an intuitive drag-and-drop interface (using @hello-pangea/dnd) for updating ticket statuses, streamlining workflow management. Whether you're handling sprints, bugs, or tasks, Bug Tracker provides a smooth, responsive experience for agile teams. 
